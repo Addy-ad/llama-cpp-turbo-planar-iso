@@ -1,6 +1,9 @@
 # Latest llama.cpp (April 10 2026) with TurboQuant + IsoQuant + PlanarQuant
 
-This repository is a fork of the latest [upstream llama.cpp](https://github.com/ggerganov/llama.cpp). It integrates cutting-edge quantization techniques to support along with the latest llama.cpp optimizations with **Gemma 4** model support.
+This repository is a fork of the [upstream llama.cpp](https://github.com/ggerganov/llama.cpp) as of April 10 2026 snapshot.
+It integrates cutting-edge quantization techniques to support along with the latest llama.cpp optimizations with **Gemma 4** model support.
+This repo will be like last known good configuration that worked without breaking anything. 
+Please check [My latest build branch](https://github.com/Addy-ad/llama-cpp-turbo-planar-iso/tree/addyad-latest) where I will keep merging latest llamacpp builds with these quants + adding more features if I can.
 
 ## Key Features
 * **Latest Upstream Sync**: Based on the most recent updates from the master repository (April 10 2026).
@@ -45,7 +48,7 @@ git clone https://github.com/Addy-ad/llama-cpp-turbo-planar-iso.git llama.cpp
 cd llama.cpp
 
 # 2. Add the PlanarQuant remote and fetch updates
-git remote add planarquant [https://github.com/johndpope/llama-cpp-turboquant.git](https://github.com/johndpope/llama-cpp-turboquant.git)
+git remote add planarquant https://github.com/johndpope/llama-cpp-turboquant.git
 git fetch planarquant
 
 # 3. Create a merge branch and pull the feature
